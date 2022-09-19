@@ -1,0 +1,192 @@
+@import './colors.scss';
+@import './mixins';
+
+/* CSS for buttons */
+.bmls_primary_default_btn {
+  color: $color-white  !important;
+  background: $color-orange  !important;
+  border-radius: 4px !important;
+  padding: 10px 20px !important;
+  text-transform: none !important;
+  @include text-body-medium;
+
+  &:hover {
+    background: $color-orange-dark  !important;
+  }
+
+  &:active {
+    background: $color-orange-light  !important;
+    color: $color-orange  !important;
+  }
+
+  &.Mui-disabled {
+    background: $color-gray-300  !important;
+  }
+}
+
+.bmls_primary_small_btn {
+  color: $color-white  !important;
+  background: $color-orange  !important;
+  border-radius: 4px !important;
+  padding: 4px 10px !important;
+  @include text-body-small;
+  text-transform: none !important;
+
+  &:hover {
+    background: $color-orange-dark  !important;
+  }
+
+  &:active {
+    background: $color-orange-light  !important;
+    color: $color-orange  !important;
+  }
+
+  &.Mui-disabled {
+    background: $color-gray-300  !important;
+  }
+}
+
+.bmls_secondary_default_btn {
+  color: $color-orange  !important;
+  border-color: $color-orange  !important;
+  ;
+  border-radius: 4px !important;
+  padding: 7px 15px !important;
+  text-transform: none !important;
+  @include text-body-medium;
+
+  &:hover {
+    background: $color-orange  !important;
+    color: $color-white  !important;
+  }
+
+  &:active {
+    background: $color-orange-light  !important;
+    color: $color-orange  !important;
+  }
+
+  &.Mui-disabled {
+    border-color: $color-gray-300  !important;
+    color: $color-gray-300  !important;
+  }
+}
+
+.bmls_secondary_small_btn {
+  color: $color-orange  !important;
+  border-color: $color-orange  !important;
+  border-radius: 4px !important;
+  padding: 4px 10px !important;
+  text-transform: none !important;
+  @include text-body-small;
+
+  &:hover {
+    background: $color-orange  !important;
+    color: $color-white  !important;
+  }
+
+  &:active {
+    background: $color-orange-light  !important;
+    color: $color-orange  !important;
+  }
+
+  &.Mui-disabled {
+    border-color: $color-gray-300  !important;
+    color: $color-gray-300  !important;
+  }
+}
+
+.bmls_tertiary_default_btn {
+  color: $color-blue-dark  !important;
+  border-radius: 4px !important;
+  padding: 7px 15px !important;
+  text-transform: none !important;
+  @include text-body-medium;
+
+  &:hover {
+    font-weight: 600 !important;
+    text-decoration: underline !important;
+    background-color: transparent !important;
+  }
+
+  &:focus {
+    box-shadow: 4px 0px 4px rgba(0, 0, 0, 0.12) !important;
+  }
+
+  &:active {
+    background: $color-blue-light  !important;
+    box-shadow: none !important;
+  }
+
+  &.Mui-disabled {
+    color: $color-gray-300  !important;
+  }
+}
+
+.bmls_tertiary_small_btn {
+  color: $color-blue-dark  !important;
+  border-radius: 4px !important;
+  padding: 7px 15px !important;
+  text-transform: none !important;
+  @include text-body-small;
+
+  &:hover {
+    font-weight: 600 !important;
+    text-decoration: underline !important;
+    background-color: transparent !important;
+  }
+
+  &:focus {
+    box-shadow: 4px 0px 4px rgba(0, 0, 0, 0.12) !important;
+  }
+
+  &:active {
+    background: $color-blue-light  !important;
+    box-shadow: none !important;
+  }
+
+  &.Mui-disabled {
+    color: $color-gray-300  !important;
+  }
+}
+
+.bmls_default_btn_with_icon {
+  color: $color-white  !important;
+  background: $color-orange  !important;
+  border-radius: 4px !important;
+  padding: 10px 20px !important;
+  text-transform: none !important;
+  @include text-body-medium;
+}
+
+.bmls_small_btn_with_icon {
+  color: $color-white  !important;
+  background: $color-orange  !important;
+  border-radius: 4px !important;
+  padding: 4px 10px !important;
+  @include text-body-small;
+  text-transform: none !important;
+}
+
+.bmls_icon_only_default_btn {
+  color: $color-white  !important;
+  background: $color-orange  !important;
+  padding: 12px !important;
+  border-radius: 4px !important;
+
+  .MuiSvgIcon-root {
+    width: 1rem !important;
+    height: 1rem !important;
+  }
+}
+
+.bmls_icon_only_small_btn {
+  color: $color-white  !important;
+  background: $color-orange  !important;
+  padding: 8px !important;
+  border-radius: 4px !important;
+
+  .MuiSvgIcon-root {
+    width: 1rem !important;
+    height: 1rem !important;
+  }
+}
