@@ -6,9 +6,9 @@
   color: $color-white  !important;
   background: $color-orange  !important;
   border-radius: 4px !important;
-  padding: 10px 20px !important;
+  //padding: 10px 20px !important;
   text-transform: none !important;
-  @include text-body-medium;
+  //@include text-body-medium;
 
   &:hover {
     background: $color-orange-dark  !important;
@@ -28,8 +28,8 @@
   color: $color-white  !important;
   background: $color-orange  !important;
   border-radius: 4px !important;
-  padding: 4px 10px !important;
-  @include text-body-small;
+  //padding: 4px 10px !important;
+  //@include text-body-small;
   text-transform: none !important;
 
   &:hover {
@@ -51,9 +51,9 @@
   border-color: $color-orange  !important;
   ;
   border-radius: 4px !important;
-  padding: 7px 15px !important;
+  //padding: 7px 15px !important;
   text-transform: none !important;
-  @include text-body-medium;
+  //@include text-body-medium;
 
   &:hover {
     background: $color-orange  !important;
@@ -75,9 +75,9 @@
   color: $color-orange  !important;
   border-color: $color-orange  !important;
   border-radius: 4px !important;
-  padding: 4px 10px !important;
+  //padding: 4px 10px !important;
   text-transform: none !important;
-  @include text-body-small;
+  //@include text-body-small;
 
   &:hover {
     background: $color-orange  !important;
@@ -98,9 +98,9 @@
 .bmls_tertiary_default_btn {
   color: $color-blue-dark  !important;
   border-radius: 4px !important;
-  padding: 7px 15px !important;
+  //padding: 7px 15px !important;
   text-transform: none !important;
-  @include text-body-medium;
+  //@include text-body-medium;
 
   &:hover {
     font-weight: 600 !important;
@@ -125,9 +125,9 @@
 .bmls_tertiary_small_btn {
   color: $color-blue-dark  !important;
   border-radius: 4px !important;
-  padding: 7px 15px !important;
+  //padding: 7px 15px !important;
   text-transform: none !important;
-  @include text-body-small;
+  //@include text-body-small;
 
   &:hover {
     font-weight: 600 !important;
@@ -153,24 +153,24 @@
   color: $color-white  !important;
   background: $color-orange  !important;
   border-radius: 4px !important;
-  padding: 10px 20px !important;
+  //padding: 10px 20px !important;
   text-transform: none !important;
-  @include text-body-medium;
+  //@include text-body-medium;
 }
 
 .bmls_small_btn_with_icon {
   color: $color-white  !important;
   background: $color-orange  !important;
   border-radius: 4px !important;
-  padding: 4px 10px !important;
-  @include text-body-small;
+  //padding: 4px 10px !important;
+  //@include text-body-small;
   text-transform: none !important;
 }
 
 .bmls_icon_only_default_btn {
   color: $color-white  !important;
   background: $color-orange  !important;
-  padding: 12px !important;
+  //padding: 12px !important;
   border-radius: 4px !important;
 
   .MuiSvgIcon-root {
@@ -182,7 +182,7 @@
 .bmls_icon_only_small_btn {
   color: $color-white  !important;
   background: $color-orange  !important;
-  padding: 8px !important;
+  //padding: 8px !important;
   border-radius: 4px !important;
 
   .MuiSvgIcon-root {
