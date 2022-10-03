@@ -9,10 +9,10 @@ function AppContainer() {
   return (
     <Router>
       <Routes>
-        <Route exact path="/primary-btn" element={<PrimaryBtn />} />
-        <Route path="/secondary-btn" element={<SecondaryBtn />}></Route>
-        <Route path="/tertiary-btn" element={<TertiaryBtn />}></Route>
-        <Route path="/misc-btn" element={<MiscBtn />}></Route>
+        <Route exact path="/button/primary-btn" element={<PrimaryBtn />} />
+        <Route path="/button/secondary-btn" element={<SecondaryBtn />}></Route>
+        <Route path="/button/tertiary-btn" element={<TertiaryBtn />}></Route>
+        <Route path="/button/misc-btn" element={<MiscBtn />}></Route>
         <Route path="/input/text-field" element={<TextField />}></Route>
         <Route path="/input/checkbox" element={<CheckboxInput />}></Route>
         <Route path="/input/radio" element={<TextField />}></Route>
