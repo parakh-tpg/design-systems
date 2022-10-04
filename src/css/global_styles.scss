@@ -28,18 +28,17 @@
   color: $color-white  !important;
   background: $color-orange  !important;
   border-radius: 4px !important;
-  //padding: 4px 10px !important;
   //@include text-body-small;
   text-transform: none !important;
 
-  &:hover {
+  /* &:hover {
     background: $color-orange-dark  !important;
   }
 
   &:active {
     background: $color-orange-light  !important;
     color: $color-orange  !important;
-  }
+  } */
 
   &.Mui-disabled {
     background: $color-gray-300  !important;
@@ -55,7 +54,7 @@
   text-transform: none !important;
   //@include text-body-medium;
 
-  &:hover {
+  /* &:hover {
     background: $color-orange  !important;
     color: $color-white  !important;
   }
@@ -63,7 +62,7 @@
   &:active {
     background: $color-orange-light  !important;
     color: $color-orange  !important;
-  }
+  } */
 
   &.Mui-disabled {
     border-color: $color-gray-300  !important;
@@ -79,7 +78,7 @@
   text-transform: none !important;
   //@include text-body-small;
 
-  &:hover {
+  /* &:hover {
     background: $color-orange  !important;
     color: $color-white  !important;
   }
@@ -87,7 +86,7 @@
   &:active {
     background: $color-orange-light  !important;
     color: $color-orange  !important;
-  }
+  } */
 
   &.Mui-disabled {
     border-color: $color-gray-300  !important;
@@ -102,7 +101,7 @@
   text-transform: none !important;
   //@include text-body-medium;
 
-  &:hover {
+  /* &:hover {
     font-weight: 600 !important;
     text-decoration: underline !important;
     background-color: transparent !important;
@@ -115,7 +114,7 @@
   &:active {
     background: $color-blue-light  !important;
     box-shadow: none !important;
-  }
+  } */
 
   &.Mui-disabled {
     color: $color-gray-300  !important;
@@ -129,7 +128,7 @@
   text-transform: none !important;
   //@include text-body-small;
 
-  &:hover {
+  /* &:hover {
     font-weight: 600 !important;
     text-decoration: underline !important;
     background-color: transparent !important;
@@ -142,7 +141,7 @@
   &:active {
     background: $color-blue-light  !important;
     box-shadow: none !important;
-  }
+  } */
 
   &.Mui-disabled {
     color: $color-gray-300  !important;
